@@ -1,14 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T06:49:59.980Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PjxcDsjxjZaoTPgL7CqU" version="24.2.0" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-25T10:06:11.662Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pwWCKkk3YSfF1zFifxRD" version="24.2.0" type="device">
   <diagram name="Page-1" id="JgHoNLqCAdngFuja939s">
-    <mxGraphModel dx="1114" dy="1196" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1993" dy="1284" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ue5-9cwrh0cjAcBvodIm-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="-82" width="435" height="435" as="geometry" />
+          <mxGeometry x="-224" y="-104" width="782" height="782" as="geometry" />
         </mxCell>
-        <mxCell id="ue5-9cwrh0cjAcBvodIm-2" value="Linux -OS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="323" width="110" height="30" as="geometry" />
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-3" target="ue5-9cwrh0cjAcBvodIm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-3" target="ue5-9cwrh0cjAcBvodIm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-40" value="used for code &amp;amp; compilation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ue5-9cwrh0cjAcBvodIm-35">
+          <mxGeometry x="0.4084" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-3" value="Intellij - IDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="257.4259593679458" y="463.8515349887133" width="212.09932279909705" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-10" target="ue5-9cwrh0cjAcBvodIm-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="98" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-31" value="Exposed Port&amp;nbsp;2375" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ue5-9cwrh0cjAcBvodIm-30">
+          <mxGeometry x="-0.2082" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-10" value="Intellij docker plugin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="257.4259593679458" y="375.00277652370204" width="130.7945823927765" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-11" value="Docker Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-190.4176072234763" y="278.0019413092551" width="130.7945823927765" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-12" target="ue5-9cwrh0cjAcBvodIm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-44" value="Intern acces port 8080" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ue5-9cwrh0cjAcBvodIm-38">
+          <mxGeometry x="0.0991" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-12" value="Aws CLI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-190.41760722347627" y="105.00288939051916" width="130.7945823927765" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-13" target="ue5-9cwrh0cjAcBvodIm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-39" value="Use for compilation &amp;amp; build" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ue5-9cwrh0cjAcBvodIm-36">
+          <mxGeometry x="0.0486" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-13" target="ue5-9cwrh0cjAcBvodIm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-42" value="Deployment port 443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="ue5-9cwrh0cjAcBvodIm-37">
+          <mxGeometry x="0.0967" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-13" value="Maven -&amp;nbsp;Java project build automation tool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-190.41760722347627" y="-38.99697516930024" width="130.7945823927765" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="ue5-9cwrh0cjAcBvodIm-14" target="ue5-9cwrh0cjAcBvodIm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-14" value="Git / Git flow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="101.00270880361174" y="463.8515349887133" width="130.7945823927765" height="88.84875846501129" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-26" value="" style="group;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-224" y="630.86" width="783" height="48.14334085778785" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-26">
+          <mxGeometry width="783" height="48.14" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-2" value="Linux -OS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-26">
+          <mxGeometry x="293.78781038374717" y="3.7189616252821907" width="194.42437923250563" height="44.42437923250564" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ue5-9cwrh0cjAcBvodIm-26" source="ue5-9cwrh0cjAcBvodIm-2" target="ue5-9cwrh0cjAcBvodIm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-27" value="" style="group;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-224" y="581.9954853273138" width="783" height="53.30925507900679" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-27">
+          <mxGeometry width="783" height="53.30925507900677" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-8" value="File sytem" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-27">
+          <mxGeometry x="294.28781038374717" y="4.442437923250566" width="194.42437923250563" height="44.42437923250564" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-24" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="168" y="-74" width="331" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry width="331" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="4" y="4" width="323" height="323" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="59" y="100" width="213" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="101.5" y="179" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-21" value="JDK- Developpement tools" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="82.5" y="46" width="166" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-22" value="JRE - Java Class Library&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22JDK-%20Developpement%20tools%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22552.5%22%20y%3D%2212%22%20width%3D%22166%22%20height%3D%2236%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="82.5" y="133" width="166" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ue5-9cwrh0cjAcBvodIm-23" value="JVM - Java vitual machine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ue5-9cwrh0cjAcBvodIm-24">
+          <mxGeometry x="112" y="225" width="107" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

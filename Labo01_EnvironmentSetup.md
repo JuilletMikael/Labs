@@ -108,7 +108,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.11+7-LTS-207, mixed mode, sharing)
 
 ### Package manager - Maven
 
-Download maven 3.9.6 (https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip)
+Download maven 3.9.6
 
 With the folowing commands, install and update the right.
 
@@ -165,9 +165,7 @@ Show your development environment, mentioning all the components in the stack.
 
 Identify the links between components.
 
-```
-//TODO Schema
-```
+![Shema](./docs/images/diagram.drawio.png)
 
 ## Analysis
 

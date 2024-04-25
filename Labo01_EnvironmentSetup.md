@@ -176,7 +176,10 @@ Answer the questions below, giving reasons for your answer (link, source).
 * How does the AWS Cli interact with the cloud ?
 
 ```
-//TODO answer the question
+AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell.
+Shoud include sso authentification and then connect with the aws connexion command.
+
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 ```
 
 * What other ways do we have of dialoguing/interacting with the AWS cloud if we wanted to do without the CLI?

@@ -110,6 +110,8 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.11+7-LTS-207, mixed mode, sharing)
 
 Download maven 3.9.6 (https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip)
 
+With the folowing commands, install and update the right.
+
 ``` bash
 cd /tmp; wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 ```
@@ -147,7 +149,7 @@ chmod 755 /etc/profile.d/mymavenvars.sh
 ``` bash
 source /etc/profile.d/mymavenvars.sh
 ```
-
+Check install
 ``` bash
 ~ mvn --version
 Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)

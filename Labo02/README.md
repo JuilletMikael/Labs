@@ -40,8 +40,11 @@ It is a single configuration file that contains the majority of information requ
 * What java dependencies are needed to make this work?
 
 ```
-Java version 17. 
-
+Java : 
+webjars : is a method for managing front-end dependencies in Java applications. 
+javax : transaction management, data persistence
+springframework : provides a complete infrastructure for enterprise application development, with features such as inversion of control (IoC), dependency injection, transaction management, security, exception handling and more. 
+jakarta : restfull web service 
 ```
 
 * Where do we find the pre-compiled application after that?
@@ -55,7 +58,7 @@ In the target folder.
 * Is it a build ready for prod ?
 
 ```
-//TODO
+the build is faster, maybe dependencises are already installed, and it is not ready for production. 
 ```
 
 ### Use Java to launch the application
@@ -63,13 +66,14 @@ In the target folder.
 * [The java command](https://docs.oracle.com/en/java/javase/14/docs/specs/man/java.html)
 
 ```bash
-//TODO
+cd target
+java -jar spring-petclinic-3.2.0-SNAPSHOT.jar
 ```
 
 * Try to access to the app via your browser
 
 ```
-//TODO
+Then go to : http://localhost:8080/
 ```
 
 * You should get this page
@@ -83,9 +87,8 @@ In the target folder.
 * [Maven plug in to run the app](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#run)
 
 ```bash
-//TODO
+mvn spring-boot:run
 ```
-
 ---
 
 ## Task 02 - Explore the app
@@ -95,7 +98,8 @@ In the target folder.
 * How can we access a home page via our browser?
 
 ```
-//TODO
+Going to the folowing addres or if you are on the app click on the logo or home menu.
+http://localhost:8080/
 ```
 
 * Go to http://localhost:8080/owners/find and add an owner
@@ -105,14 +109,12 @@ In the target folder.
 * Relaunch the application and try again. How is data persistence ensured?
 
 ```
-//TODO
+Yes I can found it, no it's not persistent. 
 ```
 
 * How many logic layers are implemented on this application?
 
-```
-//TODO
-```
+![logic layer](./docs/logic_layer.drawio.png)
 
 ---
 ## Task 03 - Docker - First Analysis

@@ -11,26 +11,43 @@ In this lab, we'll be taking the application we're going to evolve into our own 
 
 * [Maven Doc](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#build-the-project)
 
+Build Maven packages
 ```bash
-//TODO
+mvn package
 ```
+
+In case of error saying that maven is not using a lower version than the 17.
+check the version that maven use with the folowing command. 
+```bash
+mvn -v
+```
+
+Then add in the zsh config the path of the JVM 17 version. 
+```bash
+nano .zshrc
+export JAVA_HOME=/usr/lib/jvm/jdk-17-oracle-x64
+export PATH=$JAVA_HOME/bin:$PATH
+```
+Close and open the terminal check the version of maven and rebuild.
 
 * What operation does maven perform ?
-
 ```
-//TODO
+Downloading maven packages found in the pom.xml file.
+The pom.xml file is the core of a project's configuration in Maven. 
+It is a single configuration file that contains the majority of information required to build a project in just the way you want.
 ```
 
 * What java dependencies are needed to make this work?
 
 ```
-//TODO
+Java version 17. 
+
 ```
 
 * Where do we find the pre-compiled application after that?
 
 ```
-//TODO
+In the target folder.
 ```
 
 * Delete the folder containing the pre-compiled application, try again to observe the process.

@@ -178,6 +178,8 @@ Answer the questions below, giving reasons for your answer (link, source).
 ```
 AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services using commands in your command-line shell.
 Shoud include sso authentification and then connect with the aws connexion command.
+CLI utility lets you talk to api without coding, a kind of administration. 
+Once you've started a machine, you need to use another client.
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 ```
@@ -213,7 +215,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 * JDK, JRE, JVM... what's the difference?
 
 ```
-//TODO answer the question
+JDK, represnet tool kits for exemple, use to develop and precompile ? (dev side)
+JRE, server component we need (log, memory optimization)
+JVM , reprresent something thing that dependant to the host (client side)
 ```
 
 ### Maven

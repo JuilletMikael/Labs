@@ -122,11 +122,13 @@ Yes I can found it, no it's not persistent.
 * At this stage of the analysis, can you imagine a little better what kind of needs Docker could help us with?
 
 ```
-//TODO
+A little bit, build and publish ? 
 ```
 
 * Try to list the tasks to be carried out to obtain two thirds, one hosting the application part locally and the second third using Docker for the database engine.
 
 ```
-//TODO
+* a container for database 
+* a container for the app 
+* a container for services
 ```

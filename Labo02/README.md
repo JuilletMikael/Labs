@@ -125,7 +125,7 @@ Yes I can found it, no it's not persistent.
 A little bit, build and publish ? 
 ```
 
-* Try to list the tasks to be carried out to obtain two thirds, one hosting the application part locally and the second third using Docker for the database engine.
+* Try to list the tasks to be carried out to obtain two tiers, one hosting the application part locally and the second tier using Docker for the database engine.
 
 ```
 * a container for database 

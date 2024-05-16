@@ -35,7 +35,7 @@ Then install with the toolbox IntelliJ IDEA Ultimate v2024.1.
 ![Install completed](./docs/images/IntelliJ.png)
 
 
-### Containers Engins - Docker
+### Containers Engine - Docker
 
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/)
 

@@ -37,6 +37,16 @@ The pom.xml file is the core of a project's configuration in Maven.
 It is a single configuration file that contains the majority of information required to build a project in just the way you want.
 ```
 
+Quel est le cycle de vie ? 
+lis pom 
+résoud les dépendance 
+les télécharges / compile 
+test 
+
+target -> build
+
+
+
 * What java dependencies are needed to make this work?
 
 ```
@@ -46,6 +56,9 @@ javax : transaction management, data persistence
 springframework : provides a complete infrastructure for enterprise application development, with features such as inversion of control (IoC), dependency injection, transaction management, security, exception handling and more. 
 jakarta : restfull web service 
 ```
+
+JDK17 JVM17 
+
 
 * Where do we find the pre-compiled application after that?
 
@@ -69,12 +82,16 @@ the build is faster, maybe dependencises are already installed, and it is not re
 cd target
 java -jar spring-petclinic-3.2.0-SNAPSHOT.jar
 ```
+execute le bon Java, forte contrainte avec la varriable d'environement.
 
 * Try to access to the app via your browser
 
 ```
 Then go to : http://localhost:8080/
 ```
+
+how is it possible ? server se build tom4 publie l'app ? une librairie à l'interieur du build permet de faire ça. 
+
 
 * You should get this page
 
@@ -89,6 +106,9 @@ Then go to : http://localhost:8080/
 ```bash
 mvn spring-boot:run
 ```
+Quel est la différence entre java build et mvn ? 
+mvnw ? run selui du projet, utilise le maven du projet et non celuis du pc 
+
 ---
 
 ## Task 02 - Explore the app
@@ -111,10 +131,15 @@ http://localhost:8080/
 ```
 Yes I can found it, no it's not persistent. 
 ```
+Il y a une persistance de donnée avec H2, quand on arrête on pert tous. 
+On vas le virer 
 
 * How many logic layers are implemented on this application?
 
 ![logic layer](./docs/logic_layer.drawio.png)
+
+thymeleaf est lier à la vue mélange backend et frontend. 
+Demander binj son shéma
 
 ---
 ## Task 03 - Docker - First Analysis
@@ -132,3 +157,4 @@ A little bit, build and publish ?
 * a container for the app 
 * a container for services
 ```
+* 
